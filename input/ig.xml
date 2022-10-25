@@ -1705,6 +1705,51 @@
 		</resource>
 		<resource>
 			<reference>
+				<reference value="DiagnosticReport/path-coag-example0"/>
+			</reference>
+			<name value="DiagnosticReport - a coagualtion studies report with normal results"/>
+			<description value="A coagualtion studies report with normal results"/>
+			<exampleBoolean value="true"/>
+			<groupingId value="p1"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="Observation/path-coag-inr-example0"/>
+			</reference>
+			<name value="INR (in Coagualtion panel) with normal and therapeutic ranges"/>
+			<description value="INR (in Coagualtion panel) with normal and therapeutic ranges"/>
+			<exampleBoolean value="true"/>
+			<groupingId value="p1"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="Observation/path-coag-pt-example0"/>
+			</reference>
+			<name value="Prothrombin Time (in Coagualtion panel) with normal range"/>
+			<description value="Prothrombin Time (in Coagualtion panel) with normal range"/>
+			<exampleBoolean value="true"/>
+			<groupingId value="p1"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="Observation/path-coag-aptt-example0"/>
+			</reference>
+			<name value="APTT (in Coagualtion panel) with normal and therapeutic ranges"/>
+			<description value="APTT (in Coagualtion panel) with normal and therapeutic ranges"/>
+			<exampleBoolean value="true"/>
+			<groupingId value="p1"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="Observation/path-coag-fib-example0"/>
+			</reference>
+			<name value="Fibrinogen (in Coagualtion panel) with normal range"/>
+			<description value="Fibrinogen (clottable) (in Coagualtion panel) with normal range"/>
+			<exampleBoolean value="true"/>
+			<groupingId value="p1"/>
+		</resource>
+		<resource>
+			<reference>
 				<reference value="List/example2"/>
 			</reference>
 			<name value="Medicine List with changes"/>

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Observation xmlns="http://hl7.org/fhir">
+    <id value="path-coag-pt-example0"/>
+    <meta>
+        <profile value="http://hl7.org.au/fhir/StructureDefinition/au-pathologyresult"/>
+    </meta>
+    <!--WORKAROUND: The contents of DiagnosticReport.text are a workaround to enable the tooling used to generate this implementation guide
+   to generate a human friendly rendering instead of forcing the reader to refer to XML or JSON format to view the full example narrative.
+    The contents below is not consistent with good or recommended practice. -->
+    <text>
+        <status value="generated"/>
+        <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-AU" lang="en-AU">
+            <table
+                style="background-color:#ccc; font-family:Verdana; border-spacing: 10px; width:1200px; margin:0 auto">
+                <tr>
+                    <td style="font-weight:bold; width:33%; padding:5px;"><div>Patient: RIGNY, William</div>
+                        <div style="font-weight:normal; padding:5px;">DOB: 07/06/1981</div>
+                        <div style="font-weight:normal; padding:5px;">MRN: 2469753518</div>
+                        <div style="font-weight:normal; display:inline; font-size:0.8em; width:70px">Indigenous Status:</div>
+                        <div style="font-weight:normal; display:inline; font-size:0.8em"> Aboriginal but not Torres Strait Islander origin</div>
+                    </td>
+                    <td style="background-color:#eee;padding:10px;">Referred by: <span style="font-size:1.2em">Dr Robert Smith</span>
+                        <div>Devonport Family Medicine Clinic</div>
+                        <div style="display:inline; width:70px">Address: </div>
+                        <div style="display:inline; width:70px">48 Medical Crt, Pimlico, Townsville</div> 
+                        <div style="padding-left:80px">QLD 4812</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td style="padding:5px;font-size:0.8em">Order id: dfmc-246813579<div>Report id: 75312489-02-coag</div><div>Issued: 08:15 21/05/2022</div>
+                    </td>
+                </tr>
+            </table>
+            <table style="font-family:Verdana; width:1000px; margin:10px auto; border-spacing: 0 10px;">
+                <tr>
+                    <td style="text-align:center">
+                        <h2>COAGULATION STUDIES REPORT – HAEMATOLOGY</h2>
+                    </td>
+                </tr>
+            </table>
+            <table
+                style="font-family:Courier New; font-size:10pt; width:1000px; margin:10px auto; border-spacing: 0 10px;">
+                <tbody style="background-color:#eee;">
+                    <tr>
+                        <td style="width:25%; padding:5px;">Collected:</td>
+                        <td style="width:25%; padding:5px;">06:30 am</td>
+                        <td style="width:25%; padding:5px;"/>
+                        <td style="width:25%; padding:5px;"/>
+                    </tr>
+                    <tr>
+                        <td style="width:25%;padding:5px;"/>
+                        <td style="width:25%; padding:5px;">21/05/2022</td>
+                        <td style="width:25%; padding:5px;"/>
+                        <td style="width:25%; padding:5px;"/>
+                    </tr>
+                    <tr>
+                        <td style="width:25%; padding:5px;">Specimen type </td>
+                        <td style="width:25%;padding:5px;">Blood</td>
+                        <td style="width:25%; padding:5px;"/>
+                        <td style="width:25%; padding:5px;"/>
+                    </tr>
+                    <tr>
+                        <td style="width:25%; padding:5px;">Lab number:</td>
+                        <td style="width:25%; padding:5px;">75312489-02</td>
+                        <td style="width:25%; padding:5px 30px 5px 5px; text-align:right">Units</td>
+                        <td style="width:25%; padding:5px;">Reference Range</td>
+                    </tr>
+                    <tr>
+                        <td style="width:25%; padding:5px;">&#xA0;</td>
+                        <td style="width:25%; padding:5px;">&#xA0;</td>
+                        <td style="width:25%; padding:5px 30px 5px 5px; text-align:right">&#xA0;</td>
+                        <td style="width:25%; padding:5px;">&#xA0;</td>
+                    </tr>
+                    <tr>
+                        <td style="width:25%; padding:5px;">Prothrombin Time</td>
+                        <td style="width:25%; padding:5px;">15</td>
+                        <td style="width:25%; padding:5px 30px 5px 5px; text-align:right">s</td>
+                        <td style="width:25%; padding:5px;">(12 - 15)</td>
+                    </tr>
+                </tbody>
+            </table>
+            <table
+                style="background-color:#ccc; font-family:Verdana; border-spacing: 10px; width:1000px; margin:0 auto">
+                <tr>
+                    <td style="padding:5px;">ExactTest Private Pathology Laboratory (Townsville)</td>
+                    <td style="padding:5px;">Performing Pathologist:</td>
+                </tr>
+                <tr>
+                    <td style="padding:5px;">www.example.eppl.com.au</td>
+                    <td style="padding:5px;">Dr. Jin Tu (General Pathologist)</td>
+                </tr>
+                <tr>
+                    <td style="padding:5px;"/>
+                    <td style="padding:5px;">(07) 5550 1300</td>
+                </tr>
+                <tr>
+                    <td style="padding:5px;">Enquiries:</td>
+                    <td style="padding:5px;"/>
+                </tr>
+                <tr>
+                    <td colspan="2" style="padding:5px;">Accounts: (07) 5550 1220; Patient enquiry: (07)
+                        5550 1230; Dr’s enquiry: (07) 5550 1210</td>
+                </tr>
+            </table>
+        </div>
+    </text>
+    <contained>
+        <ServiceRequest>
+            <id value="coag-request-1"/> 
+            <identifier>
+                <type>
+                    <coding>
+                        <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+                        <code value="PLAC"/>
+                        <display value="Placer Identifier"/>
+                    </coding>
+                </type>
+                <system value="https://dfmc.example.com/labs/order-identifier"/>
+                <value value="246813579"/>
+                <assigner>
+                    <reference value="Organization/example3"/>
+                </assigner>
+            </identifier>
+            <status value="completed"/>
+            <intent value="order"/>
+            <code>
+                <coding>
+                    <system value="http://snomed.info/sct"/>
+                    <code value="3116009"/>
+                    <display value="Blood coagulation panel"/>
+                </coding>
+                <text value="Coagulation Studies"/>
+            </code>
+            <subject>
+                <reference value="Patient/example6"/>
+            </subject>
+            <authoredOn value="2022-05-21"/>
+            <requester>
+                <reference value="Practitioner/example4"/>
+            </requester>
+            <reasonCode>
+                <text value="Post op"/>
+            </reasonCode>
+        </ServiceRequest>
+    </contained>
+    <identifier>
+        <type>
+            <coding>
+                <system value="http://terminology.hl7.org.au/CodeSystem/v2-0203"/>
+                <code value="LRI"/>
+                <display value="Local Report Identifier"/>
+            </coding>
+        </type>
+        <system value="http://acmepathology.example.com/lab/report-id"/>
+        <value value="75312489-02-pt"/>
+    </identifier>
+    <basedOn>
+        <reference value="#coag-request-1"/>
+    </basedOn>
+    <status value="final"/>
+    <category>
+        <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <code value="laboratory"/>
+        </coding>
+    </category>
+    <code>
+        <coding>
+            <system value="http://loinc.org"/>
+            <code value="77161-8"/>
+            <display value="Prothrombin activity [Units/volume] in Platelet poor plasma by Coagulation assay --immediately after addition of factor II depleted plasma"/>
+        </coding>
+        <text value="Prothrombin Time"/>
+    </code>
+    <subject>
+        <reference value="Patient/example6"/>
+    </subject>
+    <effectiveDateTime value="2022-05-21T06:30:00+10:00"/>
+    <issued value="2022-05-21T08:15:00+10:00"/>
+    <performer>
+        <reference value="PractitionerRole/example2"/>
+    </performer>
+    <performer>
+        <reference value="Organization/example6"/>
+    </performer>
+    <valueQuantity>
+        <value value="15"/>
+        <unit value="s"/> 
+        <system value="http://unitsofmeasure.org"/> 
+        <code value="s"/> 
+    </valueQuantity>
+    <referenceRange>
+        <low>
+            <value value="12"/>
+            <unit value="s"/> 
+            <system value="http://unitsofmeasure.org"/> 
+            <code value="s"/> 
+        </low>
+        <high>
+            <value value="15"/>
+            <unit value="s"/> 
+            <system value="http://unitsofmeasure.org"/> 
+            <code value="s"/> 
+        </high>
+        <type>
+            <coding>
+                <system value="http://terminology.hl7.org/CodeSystem/referencerange-meaning"/>
+                <code value="normal"/>
+                <display value="Normal Range"/>
+            </coding>
+            <text value="Reference Range"/>
+        </type>
+    </referenceRange>
+</Observation>
