@@ -90,24 +90,23 @@
             <table
                 style="background-color:#ccc; font-family:Verdana; border-spacing: 10px; width:1000px; margin:0 auto">
                 <tr>
-                    <td style="padding:5px;">ExactTest Private Pathology Laboratory (Townsville)</td>
+                    <td style="padding:5px;">ACME Pathology</td>
                     <td style="padding:5px;">Performing Pathologist:</td>
                 </tr>
                 <tr>
-                    <td style="padding:5px;">www.example.eppl.com.au</td>
-                    <td style="padding:5px;">Dr. Jin Tu (General Pathologist)</td>
+                    <td style="padding:5px;">www.acmepathology.example.com</td>
+                    <td style="padding:5px;">Dr. Peter Winslow (General Pathologist)</td>
                 </tr>
                 <tr>
-                    <td style="padding:5px;"/>
-                    <td style="padding:5px;">(07) 5550 1300</td>
-                </tr>
-                <tr>
-                    <td style="padding:5px;">Enquiries:</td>
+                    <td style="padding:5px;">NATA Accreditation No.: 200001</td>
                     <td style="padding:5px;"/>
                 </tr>
                 <tr>
-                    <td colspan="2" style="padding:5px;">Accounts: (07) 5550 1220; Patient enquiry: (07)
-                        5550 1230; Dr’s enquiry: (07) 5550 1210</td>
+                    <td style="padding:5px;">Enquiries: (03) 5550 1234</td>
+                    <td style="padding:5px;"/>
+                </tr>
+                <tr>
+                    <td colspan="2" style="padding:5px;">7002 Little Collins Street Melbourne VIC 3000 AU</td>
                 </tr>
             </table>
         </div>
