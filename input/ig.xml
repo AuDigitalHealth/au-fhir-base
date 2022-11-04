@@ -1610,8 +1610,7 @@
 			</reference>
 			<name value="DiagnosticReport - a coagualtion studies report with normal results"/>
 			<description value="A coagualtion studies report with normal results"/>
-			<exampleBoolean value="true"/>
-			<groupingId value="p1"/>
+			<exampleCanonical value="http://hl7.org.au/fhir/core/StructureDefinition/au-pathologyresult"/>
 		</resource>
 		<resource>
 			<reference>
@@ -1619,8 +1618,7 @@
 			</reference>
 			<name value="INR (in Coagualtion panel) with normal and therapeutic ranges"/>
 			<description value="INR (in Coagualtion panel) with normal and therapeutic ranges"/>
-			<exampleBoolean value="true"/>
-			<groupingId value="p1"/>
+			<exampleCanonical value="http://hl7.org.au/fhir/core/StructureDefinition/au-pathologyresult"/>
 		</resource>
 		<resource>
 			<reference>
@@ -1628,8 +1626,7 @@
 			</reference>
 			<name value="Prothrombin Time (in Coagualtion panel) with normal range"/>
 			<description value="Prothrombin Time (in Coagualtion panel) with normal range"/>
-			<exampleBoolean value="true"/>
-			<groupingId value="p1"/>
+			<exampleCanonical value="http://hl7.org.au/fhir/core/StructureDefinition/au-pathologyresult"/>
 		</resource>
 		<resource>
 			<reference>
@@ -1637,8 +1634,7 @@
 			</reference>
 			<name value="APTT (in Coagualtion panel) with normal and therapeutic ranges"/>
 			<description value="APTT (in Coagualtion panel) with normal and therapeutic ranges"/>
-			<exampleBoolean value="true"/>
-			<groupingId value="p1"/>
+			<exampleCanonical value="http://hl7.org.au/fhir/core/StructureDefinition/au-pathologyresult"/>
 		</resource>
 		<resource>
 			<reference>
@@ -1646,8 +1642,7 @@
 			</reference>
 			<name value="Fibrinogen (in Coagualtion panel) with normal range"/>
 			<description value="Fibrinogen (clottable) (in Coagualtion panel) with normal range"/>
-			<exampleBoolean value="true"/>
-			<groupingId value="p1"/>
+			<exampleCanonical value="http://hl7.org.au/fhir/core/StructureDefinition/au-pathologyresult"/>
 		</resource>
 		<resource>
 			<reference>
