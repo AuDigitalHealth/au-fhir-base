@@ -1616,7 +1616,7 @@
 			<reference>
 				<reference value="Observation/path-coag-inr-example0"/>
 			</reference>
-			<name value="Observation - INR (in Coagualtion panel) with normal and therapeutic ranges"/>
+			<name value="Observation - INR (in Coagualtion studies) with normal and therapeutic ranges"/>
 			<description value="INR (in Coagualtion panel) with normal and therapeutic ranges"/>
 			<exampleCanonical value="http://hl7.org.au/fhir/core/StructureDefinition/au-pathologyresult"/>
 		</resource>
@@ -1625,7 +1625,7 @@
 				<reference value="Observation/path-coag-pt-example0"/>
 			</reference>
 			<name value="Observation - Prothrombin Time (in Coagualtion panel) with normal range"/>
-			<description value="Prothrombin Time (in Coagualtion panel) with normal range"/>
+			<description value="Prothrombin Time (in Coagualtion studies) with normal range"/>
 			<exampleCanonical value="http://hl7.org.au/fhir/core/StructureDefinition/au-pathologyresult"/>
 		</resource>
 		<resource>
@@ -1633,14 +1633,14 @@
 				<reference value="Observation/path-coag-aptt-example0"/>
 			</reference>
 			<name value="Observation - APTT (in Coagualtion panel) with normal and therapeutic ranges"/>
-			<description value="APTT (in Coagualtion panel) with normal and therapeutic ranges"/>
+			<description value="APTT (in Coagualtion studies) with normal and therapeutic ranges"/>
 			<exampleCanonical value="http://hl7.org.au/fhir/core/StructureDefinition/au-pathologyresult"/>
 		</resource>
 		<resource>
 			<reference>
 				<reference value="Observation/path-coag-fib-example0"/>
 			</reference>
-			<name value="Observation - Fibrinogen (in Coagualtion panel) with normal range"/>
+			<name value="Observation - Fibrinogen (in Coagualtion studies) with normal range"/>
 			<description value="Fibrinogen (clottable) (in Coagualtion panel) with normal range"/>
 			<exampleCanonical value="http://hl7.org.au/fhir/core/StructureDefinition/au-pathologyresult"/>
 		</resource>
