@@ -3,6 +3,9 @@
 	<meta>
 		<profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
 	</meta>
+	<extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+		<valueInteger value="1"/>
+	</extension>
 	<url value="http://terminology.hl7.org.au/CodeSystem/contact-purpose"/>
 	<identifier> 
 		<system value="urn:ietf:rfc:3986"/> 
@@ -14,6 +17,9 @@
 	<experimental value="false"/>
 	<description value="Purpose for associated contact information."/>
 	<caseSensitive value="true"/>
+	<!-- CodeSystem.valueSet element is not included at this time
+	 the value set canonically identified by http://terminology.hl7.org.au/ValueSet/contact-purpose defines a 'conformance requirements' value set 
+	 not an 'all codes' value set and includes concepts from more than one code system -->
 	<compositional value="false"/>
 	<versionNeeded value="false"/>
 	<content value="complete"/>
